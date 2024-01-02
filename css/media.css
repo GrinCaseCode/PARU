@@ -753,6 +753,9 @@
     .numbers-about {
         padding-bottom: 15px;
     }
+    .steps .tab-container {
+        padding-top: 27px;
+    }
 }
 
 /* Extra Small Devices, Phones */
