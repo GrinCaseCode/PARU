@@ -27,7 +27,9 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
   $("*[data-video-id]").modalVideo();
 
-  $(".menu__haschild > a").click(function(e) {
+
+  /*new*/
+  $(".menu__haschild > i").click(function(e) {
 	e.preventDefault();
 	$(this).parent().toggleClass("active");
 	$(this).siblings("ul").slideToggle(200);
@@ -62,7 +64,8 @@ var show = true;
 
 
 	//кнопка sandwich
-	$(".btn-menu_mobile").click(function() {
+	$(".btn-menu_mobile").click(function(e) {
+		e.preventDefault();
 		$(this).toggleClass("active");
 		if ($(".sidebar").is(":hidden")) {
 			$(".sidebar").slideDown(200);
@@ -70,6 +73,24 @@ var show = true;
 			$(".sidebar").slideUp(200);
 		}
 	});
+
+	/*new*/
+	$(".btn-menu_catalog").click(function(e) {
+		e.preventDefault();
+		$(this).toggleClass("active");
+		if ($(".socials-wrap").is(":hidden")) {
+			$(".socials-wrap").fadeIn(200);
+		} else {
+			$(".socials-wrap").fadeOut(200);
+		}
+	});
+
+	$(".item-dropdown__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(this).parent().siblings(".item-dropdown").removeClass("active");
+		$(this).parent().siblings(".item-dropdown").find(".item-dropdown__content").slideUp(200);
+	  });
 
 	//слайдер
 

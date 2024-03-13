@@ -631,6 +631,272 @@
     .reviews-block .row {
         margin-bottom: -50px;
     }
+
+        /*new*/
+        .menu__haschild > i {
+            top: 16px;
+        }
+        .page-about .title-big {
+            font-size: 34px;
+            margin-bottom: 25px;
+            max-width: 530px;
+        }
+        .image-about img {
+            max-width: 600px;
+        }
+        .page-about .list-page li {
+            font-size: 16px;
+            padding-left: 20px;
+        }
+        .image-about {
+            margin-left: -150px;
+            margin-bottom: -30px;
+        }
+        .about-block {
+            padding: 50px 40px;
+            font-size: 14px;
+            margin-bottom: 45px;
+            line-height: 160%;
+        }
+        .about-block .about-block__left {
+            padding-right: 20px;
+        }
+        .about-block p {
+            margin-bottom: 15px;
+        }
+        .about-block__image::before {
+            width: 230px;
+            height: 120px;
+            top: -35px;
+            left: 38px;
+        }
+        .about-block__image::after {
+            width: 330px;
+            height: 205px;
+            right: -20px;
+            bottom: -48px;
+        }
+        .item-history__content {
+            padding: 40px 20px;
+            padding-bottom: 22px;
+            padding-right: 24px;
+        }
+        .history-timeline .row > div {
+            padding: 0 25px;
+        }
+        .history-timeline .row {
+            margin: 0 -25px;
+        }
+        .item-history__content p {
+            margin-bottom: 6px;
+        }
+        .item-history__year {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+        .item-history__year::after {
+            right: -20px;
+        }
+        .item-history__year::after {
+            width: 10px;
+            height: 21px;
+        }
+        .item-history:nth-child(even) .item-history__year::after {
+            left: -19px;
+        }
+        .about-client {
+            font-size: 20px;
+            padding: 60px 45px;
+            padding-bottom: 95px;
+            margin: 85px 0;
+        }
+        .about-client::before, .about-client::after {
+            width: 45px;
+            height: 38px;
+        }
+        .about-client::before {
+            top: 28px;
+            left: 32px;
+        }
+        .about-client::after {
+            bottom: 28px;
+            right: 32px;
+        }
+        .inner-section .title-section {
+            padding-bottom: 30px;
+        }
+        .item-partner {
+            height: 140px;
+        }
+        .inner-section {
+            padding-bottom: 80px;
+        }
+        .item-team__image {
+            height: 270px;
+        }
+        .item-team__title {
+            margin-bottom: 9px;
+            font-size: 14px;
+        }
+        .item-team__content {
+            padding: 13px 15px;
+            padding-bottom: 45px;
+        }
+        .item-team::before {
+            bottom: 19px;
+            left: 15px;
+            height: 1px;
+            right: 40px;
+        }
+        .item-team::after {
+            bottom: 19px;
+            right: 15px;
+        }
+        .item-team__detail {
+            padding: 25px 14px;
+        }
+        .text-page {
+            font-size: 17px;
+        }
+        .page-about__buttons {
+            margin-top: 90px;
+        }
+        .page-about__buttons .btn-main {
+            font-size: 12px;
+            margin-right: 18px;
+            padding: 0 36px;
+            height: 56px;
+        }
+        .resume-vacancy .btn-main,
+        .recomend-vacancy .btn-main,
+        .item-info-main .btn-main,
+        .about-block .btn-main {
+            font-size: 13px;
+            padding: 0px 45px;
+            height: 55px;
+        }
+        .item-info-main .btn-main {
+            padding: 0 10px;
+        }
+        .about-block.about-block_vacancies .title-section {
+            padding-bottom: 11px;
+        }
+        .about-client.about-client_vacancies {
+            padding: 105px 100px;
+            padding-bottom: 62px;
+            margin-top: 45px;
+        }
+        .about-client.about-client_vacancies::before {
+            top: 45px;
+            left: 55px;
+        }
+        .about-client.about-client_vacancies::after {
+            bottom: 45px;
+            right: 55px;
+        }
+        .about-client__bottom {
+            padding-top: 65px;
+        }
+        .about-client__name {
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+        .about-client__descr {
+            font-size: 14px;
+        }
+        .row_info > div {
+            padding: 0 10px;
+            margin-bottom: 20px;
+        }
+        .row.row_info {
+            margin: 0 -10px;
+            margin-bottom: -20px;
+        }
+        .item-info {
+            padding: 19px 15px;
+            padding-right: 13px;
+            border-radius: 15px;
+        }
+        .item-info__head {
+            font-size: 17px;
+            margin-bottom: 13px;
+        }
+        .item-info__icon {
+            margin-right: 20px;
+        }
+        .item-info-main {
+            padding-top: 19px;
+        }
+        .item-info-main__title {
+            font-size: 24px;
+        }
+        .recomend-vacancy {
+            padding: 35px 64px;
+            padding-bottom: 39px;
+            font-size: 13px;
+            margin: 70px 0;
+        }
+        .recomend-vacancy .btn-main {
+            margin: 40px 0;
+        }
+        .recomend-vacancy__info {
+            padding: 26px 30px;
+            padding-bottom: 30px;
+            margin: 0 20px;
+        }
+        .resume-vacancy {
+            padding: 40px 117px;
+            padding-bottom: 45px;
+            font-size: 20px;
+        }
+        .resume-vacancy .title-section {
+            padding-bottom: 28px;
+            font-size: 35px;
+        }
+        .resume-vacancy .btn-main {
+            width: 320px;
+            padding: 0 10px;
+        }
+        .resume-vacancy__text {
+            margin-bottom: 30px;
+        }
+        .vacancies-wrap {
+            padding: 70px 0;
+        }
+        .contact-vacancy__title {
+            font-size: 17px;
+        }
+        .contact-vacancy__value {
+            font-size: 23px;
+        }
+        .dropdowns-wrap {
+            padding: 0 30px;
+            margin-top: 70px;
+        }
+        .item-dropdown__head {
+            font-size: 30px;
+            padding: 25px 0;
+            padding-right: 4px;
+        }
+        .item-dropdown__head i {
+            font-size: 16px;
+        }
+        .item-dropdown__content {
+            font-size: 20px;
+            padding-top: 20px;
+        }
+        .item-dropdown__subtitle {
+            margin-bottom: 23px;
+        }
+        .item-dropdown__content p {
+            margin-bottom: 12px;
+        }
+        .item-dropdown__content ul {
+            margin-bottom: 28px;
+        }
+        .item-dropdown__subtitle strong {
+            margin-right: 40px;
+        }
 }
 @media only screen and (max-width : 1350px) {
     .item-accordion__inner {
@@ -704,6 +970,57 @@
         height: 275px;
         max-width: 200px;
         margin: 0 auto;
+    }
+
+    /*new*/
+    .page-about .title-big {
+        font-size: 31px;
+    }
+    .image-about img {
+        max-width: 530px;
+    }
+    .image-about {
+        margin-left: -128px;
+    }
+    .page-about__buttons .btn-main {
+        font-size: 12px;
+        margin-right: 11px;
+        padding: 0 30px;
+        height: 54px;
+    }
+    .page-about__buttons {
+        margin-top: 55px;
+    }
+    .recomend-vacancy {
+        padding: 35px 16px;
+        padding-bottom: 39px;
+        font-size: 13px;
+        margin: 70px 0;
+    }
+    .recomend-vacancy .title-section {
+        padding-bottom: 25px;
+    }
+    .resume-vacancy {
+        padding: 40px 85px;
+        padding-bottom: 45px;
+        font-size: 19px;
+    }
+    .resume-vacancy .title-section {
+        font-size: 32px;
+    }
+    .contact-vacancy__value {
+        font-size: 21px;
+    }
+    .contact-vacancy__title {
+        font-size: 15px;
+    }
+    .item-dropdown__head {
+        font-size: 27px;
+        padding: 22px 0;
+        padding-right: 4px;
+    }
+    .item-dropdown__content {
+        font-size: 18px;
     }
 }
 
@@ -969,6 +1286,138 @@
     .page-reviews {
         padding-bottom: 60px;
     }
+
+
+    /*new*/
+    .menu__haschild > i {
+        top: 11px;
+    }
+    .page-about .title-big {
+        font-size: 24px;
+        margin-bottom: 15px;
+        max-width: 370px;
+    }
+    .page-about .list-page li {
+        font-size: 14px;
+        padding-left: 17px;
+    }
+    .image-about img {
+        max-width: 430px;
+    }
+    .image-about {
+        margin-left: -90px;
+    }
+    .about-block {
+        padding: 25px 15px;
+        font-size: 12px;
+        margin-bottom: 40px;
+        line-height: 160%;
+    }
+    .about-block .title-section {
+        padding-bottom: 15px;
+    }
+    .about-block p {
+        margin-bottom: 10px;
+    }
+    .about-block .about-block__left {
+        padding-right: 5px;
+    }
+    .about-block__image::before {
+        width: 190px;
+        height: 90px;
+        top: -25px;
+        left: 25px;
+    }
+    .about-block__image::after {
+        width: 265px;
+        height: 155px;
+        right: -10px;
+        bottom: -30px;
+    }
+    .history-timeline {
+        margin-top: 55px;
+    }
+    .about-client {
+        font-size: 16px;
+        padding: 45px 15px;
+        padding-bottom: 60px;
+        margin: 65px 0;
+    }
+    .item-partner {
+        height: 120px;
+    }
+    .row.row_team > div,
+    .row.row_partners > div {
+        padding: 0 4px;
+        margin-bottom: 8px;
+    }
+    .row.row_team,
+    .row.row_partners {
+        margin: 0 -4px;
+        margin-bottom: -8px;
+    }
+    .inner-section {
+        padding-bottom: 50px;
+    }
+    .item-team__image {
+        height: 205px;
+    }
+    .row_info > div {
+        padding: 0 4px;
+        margin-bottom: 8px;
+    }
+    .row.row_info {
+        margin: 0 -4px;
+        margin-bottom: -8px;
+    }
+    .item-info {
+        padding: 13px 10px;
+        padding-right: 9px;
+    }
+    .item-info__icon {
+        margin-right: 12px;
+        width: 22px;
+        height: 22px;
+    }
+    .item-info__head {
+        font-size: 15px;
+        margin-bottom: 11px;
+    }
+    .item-info-main__title {
+        font-size: 20px;
+    }
+    .recomend-vacancy .btn-main {
+        margin: 30px 0;
+    }
+    .resume-vacancy .title-section {
+        font-size: 26px;
+    }
+    .resume-vacancy {
+        padding: 40px 60px;
+        padding-bottom: 45px;
+        font-size: 16px;
+    }
+    .contact-vacancy__value {
+        font-size: 18px;
+    }
+    .contact-vacancy__title {
+        font-size: 14px;
+    }
+    .vacancies-wrap {
+        padding: 50px 0;
+    }
+    .dropdowns-wrap {
+        padding: 0 20px;
+        margin-top: 45px;
+    }
+    .item-dropdown__head {
+        font-size: 22px;
+        padding: 18px 0;
+        padding-right: 4px;
+    }
+    .item-dropdown__content {
+        font-size: 15px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -1127,6 +1576,52 @@
     } 
     .wrapper_legal .header {
         background-color: #2F6067;
+    }
+
+    /*new*/
+    .menu__haschild > i {
+        top: 8px;
+    }
+    .item-team__image {
+        height: 260px;
+    }
+    .page-about__buttons .btn-main {
+        font-size: 12px;
+        margin-right: 11px;
+        padding: 0 19px;
+        height: 49px;
+    }
+    .page-about__buttons {
+        margin-top: 24px;
+    }
+    .about-client.about-client_vacancies {
+        padding: 66px 40px;
+        padding-bottom: 45px;
+        margin-top: 35px;
+    }
+    .about-client.about-client_vacancies::before {
+        top: 30px;
+        left: 30px;
+    }
+    .about-client.about-client_vacancies::after {
+        bottom: 30px;
+        right: 30px;
+    }
+    .about-client__descr {
+        font-size: 13px;
+    }
+    .about-client__name {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .about-client__bottom {
+        padding-top: 45px;
+    }
+    .contact-vacancy {
+        margin-bottom: 15px;
+    }
+    .dropdowns-wrap {
+        margin-top: 30px;
     }
 }
 
@@ -1381,6 +1876,152 @@
     .block-review .btn-main {
         margin-top: 20px;
     }
+
+    /*new*/
+    .image-about img {
+        max-width: 100%;
+    }
+    .image-about {
+        margin: 0;
+        margin-bottom: -25px;
+    }
+    .about-block {
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+    .about-block__image {
+        margin-top: 26px;
+    }
+    .item-history__year {
+        text-align: left;
+    }
+    .history-timeline::before {
+        left: 0;
+    }
+    .history-timeline {
+        padding-left: 20px;
+    }
+    .item-history__year::after {
+        right: auto;
+        left: -15px !important;
+        transform: scale(-1, -1);
+    }
+    .item-history__content {
+        margin-bottom: 20px;
+        min-height: initial;
+    }
+    .about-client::before {
+        top: 15px;
+        left: 15px;
+    }
+    .about-client::after {
+        bottom: 15px;
+        right: 15px;
+    }
+    .about-client::before, .about-client::after {
+        width: 32px;
+        height: 27px;
+    }
+    .about-client {
+        font-size: 14px;
+        padding: 37px 15px;
+        padding-bottom: 55px;
+        margin: 45px 0;
+    }
+    .inner-section .title-section {
+        padding-bottom: 24px;
+    }
+    .inner-section.inner-section_team {
+        padding-bottom: 55px;
+    }
+    .page-about__buttons {
+        margin-bottom: 20px;
+    }
+    .text-page {
+        font-size: 15px;
+    }
+    .page-about .text-page {
+        max-width: 440px;
+    }
+    .resume-vacancy .btn-main, 
+    .recomend-vacancy .btn-main, 
+    .item-info-main .btn-main, 
+    .about-block .btn-main {
+        height: 50px;
+    }
+    .about-block_vacancies .btn-main {
+        margin-bottom: 10px;
+    }
+    .about-client.about-client_vacancies {
+        padding: 45px 20px;
+        padding-bottom: 39px;
+        margin-top: 20px;
+    }
+    .about-client.about-client_vacancies::before {
+        top: 13px;
+        left: 13px;
+    }
+    .about-client.about-client_vacancies::after {
+        bottom: 13px;
+        right: 13px;
+    }
+    .about-client__bottom {
+        padding-top: 30px;
+    }
+    .item-info-main__title {
+        margin-bottom: 20px;
+    }
+    .recomend-vacancy {
+        padding: 15px 16px;
+        padding-bottom: 25px;
+        font-size: 13px;
+        margin: 40px 0;
+    }
+    .recomend-vacancy__info {
+        margin: 0;
+    }
+    .resume-vacancy {
+        padding: 30px 15px;
+        padding-bottom: 35px;
+        font-size: 14px;
+    }
+    .resume-vacancy .btn-main {
+        width: 290px;
+    }
+    .resume-vacancy .title-section {
+        font-size: 23px;
+        padding-bottom: 22px;
+    }
+    .vacancies-wrap .title-section {
+        padding-bottom: 17px;
+    }
+    .vacancies-wrap {
+        padding-top: 40px;
+    }
+    .dropdowns-wrap {
+        padding: 0 15px;
+    }
+    .item-dropdown__head {
+        font-size: 18px;
+        padding: 18px 0;
+        padding-right: 2px;
+    }
+    .item-dropdown__head i {
+        font-size: 14px;
+    }
+    .item-dropdown__content {
+        font-size: 13px;
+        line-height: 180%;
+    }
+    .item-dropdown__content ul {
+        margin-bottom: 18px;
+    }
+    .item-dropdown__subtitle strong {
+        margin-right: 25px;
+    }
+    .item-dropdown__subtitle {
+        margin-bottom: 16px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -1546,6 +2187,74 @@
     }
     .page-reviews {
         padding-bottom: 50px;
+    }
+
+    /*new*/
+    .page-about .title-big {
+        font-size: 22px;
+        margin-bottom: 14px;
+        max-width: 335px;
+    }
+    .about-block .title-section {
+        max-width: 280px;
+    }
+    .about-block__image::after {
+        bottom: -19px;
+    }
+    .about-block {
+        border-radius: 20px;
+    }
+    .about-block__image::before {
+        width: 165px;
+        height: 81px;
+        top: -20px;
+        left: 13px;
+    }
+    .inner-section {
+        padding-bottom: 40px;
+    }
+    .item-partner {
+        height: 100px;
+        border-radius: 20px;
+    }
+    .item-team__image {
+        height: 196px;
+    }
+    .item-team__content {
+        padding: 11px 10px;
+        padding-bottom: 35px;
+    }
+    .item-team {
+        font-size: 12px;
+        line-height: 140%;
+    }
+    .item-team__title {
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+    .item-team__detail {
+        padding: 20px 10px;
+    }
+    .recomend-vacancy .title-section {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .recomend-vacancy__info {
+        padding: 22px 20px;
+        padding-bottom: 25px;
+    }
+    .resume-vacancy .title-section {
+        font-size: 20px;
+        padding-bottom: 18px;
+    }
+    .resume-vacancy {
+        font-size: 13px;
+    }
+    .item-dropdown__subtitle strong {
+        margin-right: 7px;
+    }
+    .item-dropdown__head {
+        font-size: 16px;
     }
 }
 
