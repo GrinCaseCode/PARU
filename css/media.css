@@ -762,7 +762,7 @@
             margin-top: 90px;
         }
         .page-about__buttons .btn-main {
-            font-size: 12px;
+            font-size: 12.4px;
             margin-right: 18px;
             padding: 0 36px;
             height: 56px;
@@ -2022,6 +2022,10 @@
     .item-dropdown__subtitle {
         margin-bottom: 16px;
     }
+    .page-about {
+        background-repeat: repeat-y;
+        background-size: 1200px auto;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -2255,6 +2259,21 @@
     }
     .item-dropdown__head {
         font-size: 16px;
+    }
+    .history-timeline {
+        margin-top: 30px;
+        padding-top: 10px;
+    }
+    .about-client.about-client_vacancies {
+        padding-bottom: 50px;
+    }
+    .item-team::after {
+        bottom: 13px;
+        right: 12px;
+    }
+    .item-team::before {
+        bottom: 13px;
+        right: 37px;
     }
 }
 
