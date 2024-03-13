@@ -2024,7 +2024,7 @@
     }
     .page-about {
         background-repeat: repeat-y;
-        background-size: 1200px auto;
+        background-size: 1200px 100%;
     }
 }
 
