@@ -37,7 +37,8 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	$(this).parent().siblings().find("ul").slideUp(200);
 });
 
-var show = true;
+if ($('.item-number').length > 0) {
+	var show = true;
 	var countbox = ".item-number";
 	$(window).on("scroll load resize", function () {
         if (!show) return false; // Отменяем показ анимации, если она уже была выполнена
@@ -57,7 +58,7 @@ var show = true;
         	show = false;
         }
     });
-
+}
 
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
