@@ -2455,7 +2455,25 @@ form {
 	color: #fff;
 	opacity: 0;
 	visibility: hidden;
+	overflow: auto;
 	transition: all 0.5s;
+}
+.item-team__detail::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+.item-team__detail::-webkit-scrollbar:vertical {
+	width: 5px;
+}
+.item-team__detail::-webkit-scrollbar:horizontal {
+	height: 5px;
+}
+.item-team__detail::-webkit-scrollbar-thumb {
+	background-color: #444;
+	border-radius: 10px;
+}
+.item-team__detail::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #D9D9D9;
 }
 .item-team:hover .item-team__detail {
 	visibility: visible;
